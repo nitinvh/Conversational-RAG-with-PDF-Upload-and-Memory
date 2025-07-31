@@ -1,0 +1,14 @@
+langchain
+langchain-community
+langchain-openai
+langchain-groq
+ipykernel
+dotenv
+bs4
+pydantic
+langchain_google_genai
+chromadb
+langchain_chroma
+langchain_text_splitters
+pypdf
+streamlit
