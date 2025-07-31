@@ -48,6 +48,7 @@ ChromaDB (or other in-memory store): A lightweight vector database used for stor
 
 python-dotenv: For securely managing API keys and environment variables.
 
+
 ## Architecture and Workflow
 The application's workflow can be seen in two main stages: a one-time document processing stage and a continuous chat stage.
 
@@ -70,4 +71,8 @@ Contextual Search: The standalone query is used to search the in-memory vector s
 LLM Augmentation & Generation: The retrieved text chunks, along with the chat history and the user's original question, are sent to the Groq LLM. The LLM synthesizes this information to generate a comprehensive, grounded, and context-aware answer.
 
 History Update: The new user question and the LLM's response are added to the st.session_state chat history, ensuring the conversation can continue seamlessly.
+
+## Streamlit UI
+<img width="3408" height="2046" alt="image" src="https://github.com/user-attachments/assets/cdf3a6dc-e285-4608-82bd-622f25fd2c81" />
+
 
